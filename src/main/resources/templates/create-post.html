@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post</title>
+</head>
+<body>
+
+<h1>My first social media post</h1>
+
+<h2>Create a new post</h2>
+
+<form action="/create-post" method="post">
+
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title"><br><br>
+
+    <label for="content">Content:</label><br>
+    <textarea id="content" name="content" rows="5" cols="50"></textarea><br><br>
+
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+
+    <label>Visibility:</label><br>
+    <input type="radio" id="public" name="visibility" value="public" checked>
+    <label for="public">Public</label><br>
+
+    <input type="radio" id="private" name="visibility" value="private">
+    <label for="private">Private</label><br><br>
+
+    <button type="submit">Submit</button>
+
+
+</form>
+
+</body>
+</html>
